@@ -1,0 +1,44 @@
+/* CSSのリセット（消さないでください） */
+html,body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+.header{
+  color:#fff;
+  background-color:#26d0c9;
+  height:100px;
+}
+.title{
+  padding:20px;
+  float:left;
+}
+.sub-title{
+  float:left;
+  margin:35px 20px;
+}
+.index-box{
+  height:20px;
+  background-color:#ffc0cb;
+}
+.main-box{
+  background-color:#fdf0d6;
+}
+.main1-box,.main2-box,.main3-box{
+  padding:20px;
+  margin:20px 60px;
+  border:1px solid #4eb367;
+  background-color:white;
+}
